@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
 import Header from "./components/Header/Header";
-import "antd/dist/antd.min.css";
+import "./App.css";
 
 function App() {
   return (
