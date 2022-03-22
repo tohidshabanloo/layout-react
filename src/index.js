@@ -3,12 +3,16 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
+import { ConfigProvider } from "antd";
+import "./fonts/BNaznnBd.ttf";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ConfigProvider direction="rtl">
+      <App />
+    </ConfigProvider>
   </React.StrictMode>,
+
   document.getElementById("root")
 );
 

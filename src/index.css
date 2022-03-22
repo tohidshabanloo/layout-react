@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "BNaznnBd";
+  src: local("BNaznnBd"), url(./fonts/BNaznnBd.ttf) format("truetype");
+}
