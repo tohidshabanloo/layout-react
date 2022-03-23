@@ -1,0 +1,16 @@
+.posts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.posts {
+  padding: 2px;
+  margin-bottom: 0;
+  background-color: #eee;
+  margin: 2px 2px 2px 2px;
+}
+.post-title {
+  font-size: 15px;
+}
+.img {
+  width: 100%;
+}
